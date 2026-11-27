@@ -1,7 +1,7 @@
 body {
     font-family: "Microsoft YaHei", sans-serif;
-    color: rgb(55, 137, 49);
-    background-color: rgba(170, 181, 26, 0.656);
+    color: rgb(28, 107, 23);
+    background-color: rgba(35, 165, 55, 0.607);
 }
 h1{
     color:rgb(205, 145, 67);
@@ -45,4 +45,14 @@ a:hover {
 .btn:hover {
   background-color: #0E4170;
 }
+
+
+nav a:hover {
+  color: #185FA5;
+}nav a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #07b66ad6;
+}
+
 
