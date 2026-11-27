@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Viewport: makes media queries work on real phones -->
+  <title>我的个人主页</title>
+  <meta name="description" content="一名正在学习网页开发的大学生的个人主页，含学习目标与计划。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation: shared across all three pages -->
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="programmes.html">学位项目</a>
+    <a href="guide.html">申请指南</a>
+  </nav>
+  <!-- Hero section with main heading -->
+  <div class="hero">
+    <h1>我的个人主页</h1>
+    <p>我们有不同学位课程等你选择。由统一学生组成的社区，我们提供任何你感兴趣的领域的英语授课学位。</p>
+  </div>
+  <!-- Hero image from Pixabay (free license) -->
+  <img src="images/campus-students.jpg" alt="校园里的学生们" width="1200" height="800">
+  <h2>关于我</h2>
+  <p>我是一名<strong>大学生</strong>，正在学习<em>网页开发</em>。</p>
+  <h2>我本周的目标</h2>
+  <ul>
+    <li>敲出自己的第一个网页</li>
+    <li>发布到 GitHub</li>
+  </ul>
+  <h2>申请步骤</h2>
+  <ol>
+    <li>寻找自己合适的领域</li>
+    <li>联系导师提交申请</li>
+    <li>等待结果</li>
+    <li>确认入学，收拾行李</li>
+  </ol>
+  <!-- Card section using Flexbox layout -->
+  <div class="cards">
+    <div class="card">
+      <h3>学生故事</h3>
+      <p>我们可以直接去实习</p>
+    </div>
+    <div class="card">
+      <h3>本科项目</h3>
+      <p>技能导向，面向开发方向</p>
+    </div>
+    <div class="card">
+      <h3>硕士项目</h3>
+      <p>边工作边深造，硕士之路更灵活</p>
+    </div>
+  </div>
+  <h2>学习进度</h2>
+  <table>
+    <tr><th>技能</th><th>状态</th></tr>
+    <tr><td>HTML</td><td>已学会</td></tr>
+    <tr><td>CSS</td><td>已学会</td></tr>
+    <tr><td>发布</td><td>进行中</td></tr>
+  </table>
+  <a class="btn" href="#top">回到顶部</a>
+  <footer>
+    <p>本站所有 HTML 与 CSS 均由本人手写完成。</p>
+    <p><a href="index.html">返回首页</a></p>
+    <p>© 2026 我的个人主页</p>
+  </footer>
+</body>
+</html>
