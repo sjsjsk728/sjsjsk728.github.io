@@ -1,0 +1,48 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    color: rgb(55, 137, 49);
+    background-color: rgba(170, 181, 26, 0.656);
+}
+h1{
+    color:rgb(205, 145, 67);
+}
+.hero{
+    padding: 24px;
+}
+.cards {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #185FA5;
+  border-radius: 8px;
+  padding: 16px;
+}
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #185FA5;
+  color: #FFFFFF;
+  border-radius: 8px;
+  text-decoration: none;
+}
+a:hover {
+  color: #D85A30;
+}
+.btn:hover {
+  background-color: #0E4170;
+}
+
